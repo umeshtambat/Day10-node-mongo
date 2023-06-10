@@ -30,8 +30,8 @@ async function readMessage() {
 async function main() {
   let jsonDocument = {
     message: "Hello and Welcome to CDAC",
-    to: "santosh",
-    from: "tejas",
+    to: "Everyone",
+    from: "umesh",
   };
   // await insertMessage(jsonDocument);
   readMessage();
